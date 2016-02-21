@@ -4,49 +4,26 @@ The goal of this is project is to compare several methods for
 circularization of orbits in Kerbal Space Program, using scripts
 written for the "kOS" (Kerbal Operating System) mod.
 
-## Stuff captured from the Stock Page Generator
+## Test Configuration
 
-The following text was provided by the GitHub Automatic Page
-Generator. 
+### Installing Kerbal Space Program
 
-### Welcome to GitHub Pages.
+- Kerbal Space Program, version 1.0.5
+- kOS version 0.18.2
+- ModuleManager (installed via dependency)
+- RemoteTech
 
-This automatic page generator is the easiest way to create beautiful
-pages for all of your projects. Author your page content here
-[using GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/),
-select a template crafted by a designer, and publish. After your page
-is generated, you can check out the new `gh-pages` branch locally. If
-you're using GitHub Desktop, simply sync your repository and
-you'll see the new branch.
+I currently lack a mechanism to have my vehicles stream telemetry to
+the ground, so for the purposes of this set of experiments I will be
+disabling the KOS integration with RemoteTech, and will be running the
+evaluations after a "SWITCH TO 0" statement.
 
-### Designer Templates
+### Perparation
 
-We've crafted some handsome templates for you to use. Go ahead and
-click 'Continue to layouts' to browse through them. You can easily go
-back to edit your page before publishing. After publishing your page,
-you can revisit the page generator and switch to another theme. Your
-Page content will be preserved.
+I was inspired to do this by the "Kerbal Space Programming" series of
+videos on YouTube by CheersKevin (Cheers, Kevin!) so I am going to
+establish my game saves state to where it was when I started to think
+about this: during the launch of OmniSat 1.
 
-### Creating pages manually
-
-If you prefer to not use the automatic generator, push a branch named
-`gh-pages` to your repository to create a page manually. In addition
-to supporting regular HTML content, GitHub Pages support Jekyll, a
-simple, blog aware static site generator. Jekyll makes it easy to
-create site-wide headers and footers without having to copy them
-across every page. It also offers intelligent blog support and other
-advanced templating features.
-
-### Authors and Contributors
-
-You can @mention a GitHub username to generate a link to their
-profile. The resulting `<a>` element will link to the contributor's
-GitHub Profile. For example: In 2007, Chris Wanstrath (@defunkt), PJ
-Hyett (@pjhyett), and Tom Preston-Werner (@mojombo) founded GitHub.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our
-[documentation](https://help.github.com/pages) or
-[contact support](https://github.com/contact) and we'll help you
-sort it out.
+So pause this for a bit while I rewind to the beginning and bring my
+new installation up to the desired save point.
